@@ -24,6 +24,5 @@ var lengthOfLongestSubstring = function(s) {
         window.add(s[right])
         right += 1
     }
-    // Return max length
     return max_length
 };
